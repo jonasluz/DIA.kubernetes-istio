@@ -1,0 +1,3 @@
+[submodule "vendor/online-boutique"]
+	path = vendor/online-boutique
+	url = https://github.com/jonasluz/microservices-demo.git
