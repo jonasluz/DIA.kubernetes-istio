@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                                 COMMAND                  CREATED          STATUS          PORTS                                                                                                                                  NAMES
+8c79cb6bd869   gcr.io/k8s-minikube/kicbase:v0.0.46   "/usr/local/bin/entr…"   26 minutes ago   Up 26 minutes   127.0.0.1:32768->22/tcp, 127.0.0.1:32769->2376/tcp, 127.0.0.1:32770->5000/tcp, 127.0.0.1:32771->8443/tcp, 127.0.0.1:32772->32443/tcp   minikube
