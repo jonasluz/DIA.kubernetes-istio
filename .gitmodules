@@ -4,3 +4,6 @@
 [submodule "scripts/microservices-demo"]
 	path = scripts/microservices-demo
 	url = https://github.com/GoogleCloudPlatform/microservices-demo
+[submodule "reports"]
+	path = reports
+	url = https://github.com/jonasluz/DIA.kubernetes-istio.report.git
