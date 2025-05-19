@@ -11,11 +11,11 @@ class WebsiteTasks(TaskSet):
         # Seis URLs a serem acessadas
         pages = [
             "/",
-            "/?p=152",
-            "/?p=151",
-            "/?p=136",
-            "/?p=132",
-            "/?p=128"
+            "/product/OLJCESPC7Z",
+            "/product/L9ECAV7KIM",
+            "/cart",
+            "/cart/checkout"
+
         ]
         
         # Itera sobre cada página
