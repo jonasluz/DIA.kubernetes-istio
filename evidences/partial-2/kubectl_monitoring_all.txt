@@ -1,0 +1,26 @@
+NAME                                                   READY   STATUS    RESTARTS   AGE
+pod/prom-lab-kube-state-metrics-5bf4c4999d-p4qdd       1/1     Running   0          16h
+pod/prom-lab-prometheus-node-exporter-2wcsk            1/1     Running   0          16h
+pod/prom-lab-prometheus-pushgateway-57c697bf45-vhs9p   1/1     Running   0          16h
+pod/prom-lab-prometheus-server-5988c586fc-jmp58        2/2     Running   0          92m
+
+NAME                                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)    AGE
+service/prom-lab-kube-state-metrics         ClusterIP   10.106.6.142     <none>        8080/TCP   16h
+service/prom-lab-prometheus-node-exporter   ClusterIP   10.107.105.100   <none>        9100/TCP   16h
+service/prom-lab-prometheus-pushgateway     ClusterIP   10.106.153.20    <none>        9091/TCP   16h
+service/prom-lab-prometheus-server          ClusterIP   10.96.144.174    <none>        80/TCP     16h
+
+NAME                                               DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR            AGE
+daemonset.apps/prom-lab-prometheus-node-exporter   1         1         1       1            1           kubernetes.io/os=linux   16h
+
+NAME                                              READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/prom-lab-kube-state-metrics       1/1     1            1           16h
+deployment.apps/prom-lab-prometheus-pushgateway   1/1     1            1           16h
+deployment.apps/prom-lab-prometheus-server        1/1     1            1           16h
+
+NAME                                                         DESIRED   CURRENT   READY   AGE
+replicaset.apps/prom-lab-kube-state-metrics-5bf4c4999d       1         1         1       16h
+replicaset.apps/prom-lab-prometheus-pushgateway-57c697bf45   1         1         1       16h
+replicaset.apps/prom-lab-prometheus-server-5988c586fc        1         1         1       92m
+replicaset.apps/prom-lab-prometheus-server-b6458f5f7         0         0         0       102m
+replicaset.apps/prom-lab-prometheus-server-c5c758666         0         0         0       16h
