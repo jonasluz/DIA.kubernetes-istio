@@ -1,0 +1,12 @@
+NAME                                                  READY   STATUS      RESTARTS   AGE
+pod/k6-operator-controller-manager-6bd4f687f6-6lwxv   2/2     Running     0          18h
+
+NAME                                                     TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)    AGE
+service/k6-operator-controller-manager-metrics-service   ClusterIP   10.105.138.39    <none>        8443/TCP   18h
+
+NAME                                             READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/k6-operator-controller-manager   1/1     1            1           18h
+
+NAME                                                        DESIRED   CURRENT   READY   AGE
+replicaset.apps/k6-operator-controller-manager-6bd4f687f6   1         1         1       18h
+
