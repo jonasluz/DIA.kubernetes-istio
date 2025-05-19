@@ -48,11 +48,10 @@ class WebsiteTasks(TaskSet):
     def test_pages(self):
         pages = [
             "/",
-            "/?p=152",
-            "/?p=151",
-            "/?p=136",
-            "/?p=132",
-            "/?p=128"
+            "/product/OLJCESPC7Z",
+            "/product/L9ECAV7KIM",
+            "/cart",
+            "/cart/checkout"
         ]
         for page in pages:
             self.client.get(page, name=f"Access {page}")
