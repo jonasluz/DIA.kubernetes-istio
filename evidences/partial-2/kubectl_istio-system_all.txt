@@ -1,0 +1,32 @@
+NAME                                        READY   STATUS    RESTARTS   AGE
+pod/grafana-65bfb5f855-c55h6                1/1     Running   0          18h
+pod/istio-egressgateway-675cdb9f4b-f6dzq    1/1     Running   0          20h
+pod/istio-ingressgateway-6cd9bc7f5b-vmx99   1/1     Running   0          20h
+pod/istiod-7f898458c5-c4n92                 1/1     Running   0          20h
+pod/prometheus-67b7b8c5b6-t8l2z             2/2     Running   0          16h
+
+NAME                           TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                                                                      AGE
+service/grafana                ClusterIP      10.97.241.28    <none>        3000/TCP                                                                     18h
+service/istio-egressgateway    ClusterIP      10.105.168.86   <none>        80/TCP,443/TCP                                                               20h
+service/istio-ingressgateway   LoadBalancer   10.97.58.39     127.0.0.1     15021:30658/TCP,80:32474/TCP,443:30941/TCP,31400:31359/TCP,15443:30397/TCP   20h
+service/istiod                 ClusterIP      10.108.33.75    <none>        15010/TCP,15012/TCP,443/TCP,15014/TCP                                        20h
+service/prometheus             ClusterIP      10.108.139.82   <none>        9090/TCP                                                                     18h
+
+NAME                                   READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/grafana                1/1     1            1           18h
+deployment.apps/istio-egressgateway    1/1     1            1           20h
+deployment.apps/istio-ingressgateway   1/1     1            1           20h
+deployment.apps/istiod                 1/1     1            1           20h
+deployment.apps/prometheus             1/1     1            1           18h
+
+NAME                                              DESIRED   CURRENT   READY   AGE
+replicaset.apps/grafana-65bfb5f855                1         1         1       18h
+replicaset.apps/istio-egressgateway-675cdb9f4b    1         1         1       20h
+replicaset.apps/istio-ingressgateway-6cd9bc7f5b   1         1         1       20h
+replicaset.apps/istiod-7f898458c5                 1         1         1       20h
+replicaset.apps/prometheus-65fbd6f858             0         0         0       16h
+replicaset.apps/prometheus-67b7b8c5b6             1         1         1       16h
+replicaset.apps/prometheus-67f6d84c74             0         0         0       17h
+replicaset.apps/prometheus-689cc795d4             0         0         0       18h
+replicaset.apps/prometheus-75845fc8db             0         0         0       16h
+replicaset.apps/prometheus-768cf8d7cb             0         0         0       16h
