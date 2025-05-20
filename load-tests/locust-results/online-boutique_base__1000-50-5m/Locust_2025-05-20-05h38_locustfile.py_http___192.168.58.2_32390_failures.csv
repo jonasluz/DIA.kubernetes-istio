@@ -1,0 +1,20 @@
+Method,Name,Error,Occurrences
+GET,Access GET /cart,"ConnectionRefusedError(111, 'Connection refused')",25
+GET,Access GET /product/OLJCESPC7Z,"ConnectionRefusedError(111, 'Connection refused')",7
+GET,Access GET /,RemoteDisconnected('Remote end closed connection without response'),209
+GET,Access GET /product/LS4PSXUNUM,"ConnectionRefusedError(111, 'Connection refused')",4
+GET,Access GET /product/OLJCESPC7Z,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,Access GET /product/OLJCESPC7Z,RemoteDisconnected('Remote end closed connection without response'),33
+GET,Access GET /product/1YMWWN1N4O,"ConnectionRefusedError(111, 'Connection refused')",7
+GET,Access GET /product/L9ECAV7KIM,RemoteDisconnected('Remote end closed connection without response'),30
+GET,Access GET /,"ConnectionResetError(104, 'Connection reset by peer')",3
+GET,Access GET /product/1YMWWN1N4O,"ConnectionResetError(104, 'Connection reset by peer')",2
+GET,Access GET /product/1YMWWN1N4O,RemoteDisconnected('Remote end closed connection without response'),33
+GET,Access GET /product/66VCHSJNUP,RemoteDisconnected('Remote end closed connection without response'),20
+GET,Access GET /cart,"ConnectionResetError(104, 'Connection reset by peer')",29
+GET,Access GET /product/L9ECAV7KIM,"ConnectionRefusedError(111, 'Connection refused')",7
+GET,Access GET /cart,RemoteDisconnected('Remote end closed connection without response'),155
+GET,Access GET /product/66VCHSJNUP,"ConnectionRefusedError(111, 'Connection refused')",4
+GET,Access GET /,"ConnectionRefusedError(111, 'Connection refused')",69
+GET,Access GET /product/LS4PSXUNUM,RemoteDisconnected('Remote end closed connection without response'),29
+GET,Access GET /product/LS4PSXUNUM,"ConnectionResetError(104, 'Connection reset by peer')",3
