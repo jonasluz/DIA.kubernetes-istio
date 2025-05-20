@@ -8,6 +8,8 @@ Trabalho prático para a disciplina M-907 - Sistemas Distribuídos, dos cursos d
 
 ### Entrega Parcial 1
 - Prazo: 06/05/2025
+### Entrega Parcial 2
+- Prazo: 20/05/2025
 
 #### Artrefatos da entrega:
 - *Relatório preliminar (WIP)*
