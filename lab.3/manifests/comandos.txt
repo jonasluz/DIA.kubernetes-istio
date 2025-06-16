@@ -1,0 +1,20 @@
+  504  ls
+  505  cd istio/
+  506  clear
+  507  ls
+  508  kubectl apply -f fault-delay-recommendation.yaml 
+  509  kubectl apply -f fault-delay-recommendation.yaml 
+  510  clear
+  511  kubectl apply -f fault-abort-productcatalog-25.yaml 
+  512  kubectl delete -f fault-abort-productcatalog-25.yaml 
+  513* kubectl delete -f fault-abort-pr
+  514  ls
+  515  kubectl apply -f fault-abort-productcatalog-50.yaml 
+  516  clear
+  517  kubectl delete -f fault-abort-productcatalog-50.yaml 
+  518  kubectl delete -f fault-abort-productcatalog-25.yaml 
+  519  kubectl delete -f fault-delay-recommendation.yaml 
+  520  kubectl -n butique-istio get svc
+  521  history
+  522  history | tail -n 15
+  523  history | tail -n 20 > comandos.txt

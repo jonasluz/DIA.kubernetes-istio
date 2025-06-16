@@ -1,13 +1,13 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: productcatalog-hpa
+  name: checkout-hpa
   namespace: boutique-istio
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: productcatalog
+    name: checkoutservice
   minReplicas: 2
   maxReplicas: 6
   metrics:

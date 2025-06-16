@@ -2,7 +2,7 @@ apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
   name: productcatalog-abort-25
-  namespace: online-boutique-istio
+  namespace: boutique-istio
 spec:
   hosts:
   - productcatalogservice
