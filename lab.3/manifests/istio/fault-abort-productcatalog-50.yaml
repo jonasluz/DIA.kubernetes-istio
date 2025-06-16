@@ -1,0 +1,16 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: productcatalog-abort-25
+  namespace: boutique-istio
+spec:
+  hosts:
+  - productcatalogservice
+  http:
+  - fault:
+      abort:
+        httpStatus: 503
+        percentage: { value: 50 }
+    route:
+    - destination:
+        host: productcatalogservice
